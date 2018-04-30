@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="user">
+
+    <class name="Record" table="Record">
+        <composite-id name="urKey" class="URKey">
+            <key-property name="userId" column="user_id"/>
+            <key-property name="libraryId" column="library_id"/>
+            <key-property name="recordId" column="record_id"/>
+        </composite-id>
+        <property name="answer" column="answer" type="java.sql.Blob"/>
+        <property name="date" column="date" type="date"/>
+
+    </class>
+</hibernate-mapping>

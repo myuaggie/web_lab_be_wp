@@ -1,0 +1,409 @@
+html {
+    background: white;
+    font: 16px Arial;
+}
+
+input {
+    font: 16px Arial;
+}
+
+table {
+    width:95%;
+    border: 1px lightskyblue;
+    margin-left: 25px;
+    margin-top:20px;
+    margin-right:10px;
+
+    border-collapse:collapse;
+    color:rgb(12, 103, 159);
+}
+
+td {
+    border:1px solid #2589bf;
+    padding:3px 7px 2px 7px;
+    text-align:center;
+    background-color: rgba(57, 183, 255, 0.1);
+    width:20px;
+}
+
+td:hover{
+    background-color:rgb(171, 238, 255);
+}
+
+th {
+    font-family:Georgia;
+    border:1px solid #2589bf;
+    padding:3px 7px 2px 7px;
+    font-size:1.1em;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#2589bf;
+    color:#ffffff;
+}
+
+#delete{
+    color:#2589bf;
+}
+.Toolbar {
+    margin-left: 20px;
+}
+
+.Toolbar a, .Toolbar button { /* thanks css3buttongenerator.com! */
+    font-family:Georgia;
+    background:  #f0cf43;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.Toolbar a:hover, .Toolbar button:hover {
+    background: #f6db55;
+    text-decoration: none;
+}
+
+.Userbar {
+    margin-left:890px;
+    position: absolute; top: 38px; right:48px
+}
+
+.Userbar a, .Userbar button { /* thanks css3buttongenerator.com! */
+    font-family:Georgia;
+    background: #f0cf43;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.Userbar a:hover, .Userbar button:hover {
+    background: #f6db55;
+    text-decoration: none;
+}
+
+.Mnpltbar {
+    margin-left:240px;
+    position: absolute; top: 115px;right:48px
+}
+
+.Mnpltbar a, .Mnpltbar button { /* thanks css3buttongenerator.com! */
+    font-family:Georgia;
+    background: #a1263b;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.Mnpltbar a:hover, .Mnpltbar button:hover {
+    background: #bd2a42;
+    text-decoration: none;
+}
+
+#poplogin{
+    font-family:Georgia;
+    position: absolute; top: 120px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 400px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+    border: cadetblue;
+    border-radius: 5px;
+    background-image: url(timg.jpeg);
+    color: rgba(236, 208, 254, 0.86);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px
+}
+
+#popregister{
+    font-family:Georgia;
+    position: absolute; top: 120px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 400px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+    border: cadetblue;
+    border-radius: 5px;
+    background-image: url(timg.jpeg);
+    color: rgba(236, 208, 254, 0.86);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px
+}
+
+#poplogout{
+    font-family:Georgia;
+    position: absolute; top: 120px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 450px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+    border: cadetblue;
+    border-radius: 5px;
+    background-image: url(timg.jpeg);
+    color: rgba(236, 208, 254, 0.86);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px
+}
+
+#popusercenter{
+    font-family:Georgia;
+
+    position: absolute; top: 120px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 450px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+
+    border: cadetblue;
+    border-radius: 5px;
+    background-image: url(timg.jpeg);
+    color: rgba(219, 214, 243, 0.71);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px
+}
+
+#popadd{
+    font-family:Georgia;
+    position: absolute; top: 30px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 250px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+
+    border: cadetblue;
+    border-radius: 5px;
+    background-image: url(timg.jpeg);
+    color: rgba(236, 208, 254, 0.86);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px;padding: 20px;
+    width:700px;
+}
+
+#popref{
+    font-family:Georgia;
+    position: absolute; top: 400px; filter: alpha(opacity=90); background-color: #9cdef7;
+    z-index: 1002; left: 150px;
+    opacity:1; -moz-opacity:1;
+    display:none;
+    width:800px;
+    border: cadetblue;
+    border-radius: 5px;
+    background-image:url(timg.jpeg) ;
+    color: rgba(236, 208, 254, 0.86);
+    padding-left: 20px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-shadow:rgba(110, 65, 171, 0.86) 2px 1px 1px;
+    font-size:25px
+}
+
+#usernamehint{
+    display:none;
+    color:rgb(196, 112, 54) ;
+}
+
+#useremailhint{
+    display:none;
+    color:rgb(196, 112, 54) ;
+}
+
+#userphonehint{
+    display:none;
+    color:rgb(196, 112, 54) ;
+}
+
+#passwordhint{
+    display:none;
+    color:rgb(196, 112, 54) ;
+}
+
+#passwordcphint{
+    display:none;
+    color:rgb(196, 112, 54) ;
+}
+
+
+.close{
+
+}
+
+#title{
+    margin-left:20px;
+    font-size:30px;
+    font-family:Georgia;
+    font-weight: bold;
+    color:rgba(155, 93, 129, 0.85);
+    width:140px;
+    padding:8px;
+    border:2px solid rgba(155, 93, 129, 0.85);
+
+}
+
+#titleBackground{
+    position: absolute; top: 30px;left:200px;
+    width:1025px;
+    height:55px;
+    background-image:url(timg.jpeg);
+}
+
+.detail:hover{
+    background-color: rgba(96, 204, 97, 0.77)
+}
+
+.detailPage{
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:30px;
+    margin-bottom: 50px;
+    border-top:3px solid rgb(38, 88, 186);
+    border-bottom:3px solid rgb(38, 88, 186);
+    padding:20px;
+}
+
+#detailTitle{
+    margin:0px auto;
+    margin-top:50px;
+    color:rgb(38, 88, 186);
+    font-size:25px;
+    font-family:Georgia;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#detailDate{
+    text-align:right;
+    color:gray;
+    font-size:10px;
+}
+
+#detailOwner{
+    text-align:right;
+    color:gray;
+    font-size:10px;
+}
+
+#detailContent{
+    font-family:Georgia;
+    font-size:18px;
+    background-color: rgba(129, 180, 255, 0.83);
+    color:white;
+    padding: 20px
+}
+
+#reference{
+    margin-top:20px;
+    border:1px dashed gray;
+    display:none;
+    text-align: center;
+    padding:20px;
+    font-family:Georgia;
+
+}
+
+#referenceCom{
+    margin-top:20px;
+    border:1px dashed gray;
+    display:none;
+    text-align: center;
+    padding:20px;
+    font-family:Georgia;
+
+}
+
+#createRef{
+
+}
+
+#editRef{
+}
+
+#loginHint{
+    margin:30px;
+    font-family:Georgia;
+}
+
+#refContent{
+    margin:20px;
+}
+
+#editor{
+    margin-top:40px;
+}
+
+#editorbtn{
+    margin-top:100px;
+}
+
+#recordbackbtn{
+    margin:20px;
+}
+
+#recordDetail{
+    margin-left:20px;
+    margin-right:30px;
+
+    padding:20px;
+    background-color:rgba(57, 183, 255, 0.1);
+}
+
+
+.tagHint{
+    display:inline-block;
+    font-size:16px;
+    padding-left:10px;
+    color:rgb(250, 241, 254);
+}
+
+.tag{
+    margin-left:80px;
+}
+
+
+#questioncontent{
+    margin-bottom:30px;
+    margin-right:50px;
+    background-color: white;
+    padding-bottom: 80px;
+    height: 300px;
+    color:black;
+    text-shadow:rgba(110, 65, 171, 0.86) 0px 0px 0px;
+}
+
+
+#questionref{
+    margin-bottom:30px;
+    height: 300px;
+    margin-right:30px;
+    background-color: white;
+    padding-bottom: 80px;
+    color:black;
+    text-shadow:rgba(110, 65, 171, 0.86) 0px 0px 0px;
+}
